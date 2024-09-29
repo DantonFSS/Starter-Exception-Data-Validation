@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class FindByCpfService {
 
-
     private final PessoaRepository pRepo;
 
     public String getUserByCpf(String cpf) {
