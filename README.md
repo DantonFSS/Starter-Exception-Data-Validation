@@ -30,9 +30,9 @@ the URI configuration will be in sight since you've access to Controllers
 ```
 POST - /create - Creates a new person with given data.
 
-GET - /users - Return people already created. 
+GET - /all - Return people already created. 
 
-GET - users/find/{id} - Return a specific person given the id.
+GET - /find/{id} - Return a specific person given the id.
 ```
 
 ## JSON body format for POST's methods is:

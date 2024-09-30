@@ -12,12 +12,12 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("api/v1")
+@RequestMapping("api/v1/users")
 public class FindAllPessoasController {
 
     private final FindAllService fAll;
 
-    @GetMapping("/users")
+    @GetMapping("/all")
     public ResponseEntity<List<Pessoa>> returnAllPessoas() {
         return ResponseEntity.ok().body(fAll.getAllPessoas());
     }
