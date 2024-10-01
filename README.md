@@ -44,6 +44,14 @@ GET - /find/{id} - Return a specific person given the id.
 }
 ``
 
+Participants were -> 
 
+Victor Gabriel alves da hora
+01648029
 
+Arthur Henrique de lira Guedes
+01648341
+
+Danton Filipe Sabino Silva
+01648225
 
